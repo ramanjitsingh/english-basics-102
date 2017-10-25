@@ -1,0 +1,405 @@
+{
+	"meta": {
+		"author": "Cuppub1 Admin",
+		"title": "Basics of English 102",
+		"code": "cupdemo-101",
+		"thumbnailsmall": "cover.jpg",
+		"thumbnaillarge": "cover.jpg",
+		"producttype": "courseware",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+		"schema": 1
+	},
+	"definition": {
+		"learning-objectives": {
+			"Learning Objective 1": {
+				"name": "Learning Objective 1",
+				"learning-objectives": {}
+			}
+		},
+		"tags": {
+			"Audio": {
+				"id": "T1",
+				"tags": {}
+			},
+			"Video": {
+				"id": "T2",
+				"tags": {}
+			},
+			"Reading": {
+				"id": "T3",
+				"tags": {}
+			},
+			"Interactive": {
+				"id": "T4",
+				"tags": {}
+			},
+			"Summative Assessment": {
+				"id": "T5",
+				"tags": {}
+			},
+			"Formative Assessment": {
+				"id": "T6",
+				"tags": {}
+			}
+		}
+	},
+	"items": {
+		"default": [
+			{
+				"name": "1 Friends and family",
+				"item-type": "folder",
+				"item-code": "1_friends_and_family",
+				"sub-type": "default",
+				"items": [
+					{
+						"name": "A What kind of person are you?",
+						"item-type": "folder",
+						"item-code": "1_friends_and_family/a_what_kind_of_person_are_you?",
+						"sub-type": "default",
+						"items": [
+							{
+								"name": "Reading exercise",
+								"item-type": "resource",
+								"item-code": "1_friends_and_family/a_what_kind_of_person_are_you?/reading_exercise",
+								"resource": "RE_0001",
+								"tracking": true
+							},
+							{
+								"name": "Jack C. Richards on Vocabulary",
+								"item-type": "resource",
+								"item-code": "1_friends_and_family/a_what_kind_of_person_are_you?/jack_c._richards_on_vocabulary",
+								"resource": "RE_0002",
+								"tracking": true
+							},
+							{
+								"name": "The world on a digital screen",
+								"item-type": "resource",
+								"item-code": "1_friends_and_family/a_what_kind_of_person_are_you?/the_world_on_a_digital_screen",
+								"resource": "RE_0003",
+								"tracking": true
+							},
+							{
+								"name": "Passages 3e (Interactive Pages)",
+								"item-type": "resource",
+								"item-code": "1_friends_and_family/a_what_kind_of_person_are_you?/passages_3e_(interactive_pages)",
+								"resource": "RE_0004",
+								"tracking": true
+							}
+						]
+					},
+					{
+						"name": "B Every family is different.",
+						"item-type": "folder",
+						"item-code": "1_friends_and_family/b_every_family_is_different.",
+						"sub-type": "default",
+						"items": [
+							{
+								"name": "Cambridge University Press - English Vocabulary in Use (Elementary)",
+								"item-type": "resource",
+								"item-code": "1_friends_and_family/b_every_family_is_different./cambridge_university_press_-_english_vocabulary_in_use_(elementary)",
+								"resource": "RE_0005",
+								"tracking": true
+							}
+						]
+					},
+					{
+						"name": "Activities",
+						"item-type": "folder",
+						"item-code": "1_friends_and_family/activities",
+						"sub-type": "default",
+						"items": [
+							{
+								"name": "Exercise 02",
+								"item-type": "resource",
+								"item-code": "1_friends_and_family/activities/exercise_02",
+								"resource": "RE_0006",
+								"tracking": true
+							},
+							{
+								"name": "Exercise Unit 02, 3",
+								"item-type": "resource",
+								"item-code": "1_friends_and_family/activities/exercise_unit_02,_3",
+								"resource": "RE_0007",
+								"tracking": true
+							},
+							{
+								"name": "Exercise 2",
+								"item-type": "resource",
+								"item-code": "1_friends_and_family/activities/exercise_2",
+								"resource": "RE_0008",
+								"tracking": true
+							},
+							{
+								"name": "Exercise 12",
+								"item-type": "resource",
+								"item-code": "1_friends_and_family/activities/exercise_12",
+								"resource": "RE_0009",
+								"tracking": true
+							},
+							{
+								"name": "Exercise Unit 1, 02",
+								"item-type": "resource",
+								"item-code": "1_friends_and_family/activities/exercise_unit_1,_02",
+								"resource": "RE_00010",
+								"tracking": true
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "2 Mistakes, mysteries",
+				"item-type": "folder",
+				"item-code": "2_mistakes,_mysteries",
+				"sub-type": "default",
+				"items": [
+					{
+						"name": "A Life lessons",
+						"item-type": "folder",
+						"item-code": "2_mistakes,_mysteries/a_life_lessons",
+						"sub-type": "default",
+						"items": []
+					},
+					{
+						"name": "B I can’t explain it!",
+						"item-type": "folder",
+						"item-code": "2_mistakes,_mysteries/b_i_can’t_explain_it!",
+						"sub-type": "default",
+						"items": []
+					}
+				]
+			},
+			{
+				"name": "3 Exploring new cities",
+				"item-type": "folder",
+				"item-code": "3_exploring_new_cities",
+				"sub-type": "default",
+				"items": [
+					{
+						"name": "A Popular destinations",
+						"item-type": "folder",
+						"item-code": "3_exploring_new_cities/a_popular_destinations",
+						"sub-type": "default",
+						"items": []
+					},
+					{
+						"name": "B My kind of town",
+						"item-type": "folder",
+						"item-code": "3_exploring_new_cities/b_my_kind_of_town",
+						"sub-type": "default",
+						"items": []
+					}
+				]
+			},
+			{
+				"name": "1–3 Review",
+				"item-type": "folder",
+				"item-code": "1–3_review",
+				"sub-type": "default",
+				"items": []
+			},
+			{
+				"name": "4 Early birds & owls",
+				"item-type": "folder",
+				"item-code": "4_early_birds_&_owls",
+				"sub-type": "default",
+				"items": [
+					{
+						"name": "A It’s about time!",
+						"item-type": "folder",
+						"item-code": "4_early_birds_&_owls/a_it’s_about_time!",
+						"sub-type": "default",
+						"items": []
+					},
+					{
+						"name": "B Tossing and turning",
+						"item-type": "folder",
+						"item-code": "4_early_birds_&_owls/b_tossing_and_turning",
+						"sub-type": "default",
+						"items": []
+					}
+				]
+			},
+			{
+				"name": "5 Communication",
+				"item-type": "folder",
+				"item-code": "5_communication",
+				"sub-type": "default",
+				"items": [
+					{
+						"name": "A Making conversation",
+						"item-type": "folder",
+						"item-code": "5_communication/a_making_conversation",
+						"sub-type": "default",
+						"items": []
+					},
+					{
+						"name": "B It’s personal",
+						"item-type": "folder",
+						"item-code": "5_communication/b_it’s_personal",
+						"sub-type": "default",
+						"items": []
+					}
+				]
+			},
+			{
+				"name": "6 The real story?",
+				"item-type": "folder",
+				"item-code": "6_the_real_story?",
+				"sub-type": "default",
+				"items": [
+					{
+						"name": "A That’s some story!",
+						"item-type": "folder",
+						"item-code": "6_the_real_story?/a_that’s_some_story!",
+						"sub-type": "default",
+						"items": []
+					},
+					{
+						"name": "B Storytelling",
+						"item-type": "folder",
+						"item-code": "6_the_real_story?/b_storytelling",
+						"sub-type": "default",
+						"items": []
+					}
+				]
+			},
+			{
+				"name": "4–6 Review",
+				"item-type": "folder",
+				"item-code": "4–6_review",
+				"sub-type": "default",
+				"items": []
+			}
+		]
+	},
+	"resources": {
+		"generic": {
+			"RE_0001": {
+				"learning-objectives": [
+					"Learning Objective 1"
+				],
+				"tags": [],
+				"sub-type": "html",
+				"html": {
+					"url": "html/1508312669801.html"
+				}
+			},
+			"RE_0002": {
+				"learning-objectives": [
+					"Learning Objective 1"
+				],
+				"tags": [],
+				"sub-type": "video",
+				"description": "In this video cast, Professor Jack C. Richards discusses vocabulary.",
+				"video": {
+					"url": "https://www.youtube.com/watch?v=ZT2S5IrjUzU"
+				}
+			},
+			"RE_0003": {
+				"learning-objectives": [
+					"Learning Objective 1"
+				],
+				"tags": [],
+				"sub-type": "img",
+				"img": {
+					"url": "//images.contentful.com/ligrmz7t7is5/3nCIlsuVKwQysuMcKGuUA4/10d45300f0e49fb7e50d1c69faa64627/tU3ptNgGSP6U2fE67Gvy_SYDNEY-162.jpg"
+				}
+			},
+			"RE_0004": {
+				"learning-objectives": [
+					"Learning Objective 1"
+				],
+				"tags": [],
+				"sub-type": "pdfx",
+				"description": "",
+				"pdfx": {
+					"url": "pdfx/1508911764889"
+				}
+			},
+			"RE_0005": {
+				"learning-objectives": [
+					"Learning Objective 1"
+				],
+				"tags": [],
+				"sub-type": "pdf",
+				"pdf": {
+					"url": "//assets.contentful.com/ligrmz7t7is5/3XH8K0rSycgU82escY2aEK/837af645297553f4b4810d1047ef61f2/Cambridge_University_Press_-_English_Vocabulary_in_Use__Elementary_.pdf"
+				}
+			},
+			"RE_0006": {
+				"learning-objectives": [
+					"Learning Objective 1"
+				],
+				"tags": [],
+				"sub-type": "ext",
+				"description": "",
+				"ext": {
+					"url": "ext/1508911740577",
+					"cup-options": {
+						"contentid": "1508911928077",
+						"title": "1508911928077"
+					}
+				}
+			},
+			"RE_0007": {
+				"learning-objectives": [
+					"Learning Objective 1"
+				],
+				"tags": [],
+				"sub-type": "ext",
+				"ext": {
+					"url": "ext/1508911760449",
+					"cup-options": {
+						"contentid": "1508911931426",
+						"title": "1508911931426"
+					}
+				}
+			},
+			"RE_0008": {
+				"learning-objectives": [
+					"Learning Objective 1"
+				],
+				"tags": [],
+				"sub-type": "ext",
+				"ext": {
+					"url": "ext/1508911753263",
+					"cup-options": {
+						"contentid": "1508911950125",
+						"title": "1508911950125"
+					}
+				}
+			},
+			"RE_0009": {
+				"learning-objectives": [
+					"Learning Objective 1"
+				],
+				"tags": [],
+				"sub-type": "ext",
+				"ext": {
+					"url": "ext/1508911739237",
+					"cup-options": {
+						"contentid": "1508911952895",
+						"title": "1508911952895"
+					}
+				}
+			},
+			"RE_00010": {
+				"learning-objectives": [
+					"Learning Objective 1"
+				],
+				"tags": [],
+				"sub-type": "ext",
+				"ext": {
+					"url": "ext/1508911740577",
+					"cup-options": {
+						"contentid": "1508911956676",
+						"title": "1508911956676"
+					}
+				}
+			}
+		},
+		"test": {},
+		"ebook": {}
+	}
+}

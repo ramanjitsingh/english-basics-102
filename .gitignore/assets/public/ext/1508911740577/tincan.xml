@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tincan xmlns="http://projecttincan.com/tincan.xsd">
+  <activities>
+    <activity id="http://author-production.cup.avallain.com/public/eltqaactivities/34396" type="http://adlnet.gov/expapi/activities/assessment">
+      <name>IC5_OWB_L0_U01_Ex02</name>
+      <description>IC5_OWB_L0_U01_Ex02</description>
+      <launch>index.html</launch>
+    </activity>
+  </activities>
+</tincan>

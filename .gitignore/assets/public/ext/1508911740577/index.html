@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="tincan.js"></script>
+    
+    <script type="text/javascript">
+      A5 = {};
+      A5.LMS_APIS = 'TinCan';
+      A5.ENGINE_ROOT = 'https://author-engine-production.avallain.net/buckminster-2.22.3/';
+      A5.SKIN_URL = '//author-assets-runtime-prod-cup.avallain.net/designpack/CUP_adult/9af23c4b9b1c520c662ea6931a19d95a/';
+      A5.SKIN_TYPE= 'git';
+      A5.RECORDING_RTMP_SERVER = 'lnr-prod-cup.avallain.com';
+      A5.TOOLBELT_URL = '//toolbelt-prod-cup.avallain.com';
+      A5.GEOGEBRA = '//author-engine-production.avallain.net/geogebra/v5/HTML5/5.0/web/';
+      A5.MATHJAX = '//author-engine-production.avallain.net/mathjax/2.7.1/';
+      A5.CKEDITOR_RELATIVE = true;
+      A5.AUDIO_PREFER_HTML5 = true;
+      
+      A5.AUDIO_URL_BUILDER = function(id, format) {
+    	  var cdn = (id.indexOf("r5_") === 0 ? "http://cup-author-prod-lnr-runtime-assets.s3.amazonaws.com" : "http://author-assets-runtime-prod-cup.avallain.net");
+    	  return cdn + "/" + id + "." + format;
+      };
+      
+      A5.VIDEO_URL_BUILDER = function(id, format){
+    	  return "http://author-assets-runtime-prod-cup.avallain.net/" + id + "." + format;
+      };
+      
+    </script>
+    <script type="text/javascript" src="data.js"></script>
+   
+    <title>IC5_OWB_L0_U01_Ex02</title>
+
+    <script type="text/javascript">
+      var layout;
+      
+      function a5_init($) {
+        
+        window.LOInfo = {};
+     
+        window.LOInfo.assessmentOptions = ''
+        window.LOInfo.LOOptions = '<options><option id="046" key="1_point_action" /><option id="047" key="false" /><option id="050" key="auto" /><option id="051" key="false" /><option id="315" key="3" /><option id="040" key="normal" /><option id="311" key="afterOne" /><option id="334" key="always" value="{&quot;items&quot;:[{},{}],&quot;selection&quot;:&quot;always&quot;}" /><option id="335" key="off" /><option id="342" key="off" /><option id="312" key="on" /><option id="346" key="false" /><option id="347" key="false" /><option id="348" key="false" /><option id="349" key="false" /><option id="313" key="off" /><option id="025" key="false" /><option id="336" key="off" /><option id="352" key="[]" /><option id="373" key="off" /><option id="379" key="off" /><option id="384" key="       {&amp;quot;items&amp;quot;:[],&amp;quot;selection&amp;quot;:&amp;quot;off&amp;quot;}   " /><option id="388" key="off" /><option id="396" key="on" /><option id="371" key="off" /><option id="419" key="on" /><option id="432" key="off" /><option id="433" key="on" /><option id="351" key="[&quot;French&quot;,&quot;German&quot;,&quot;Spanish&quot;]" /><option id="385" key="off" /><option id="391" key="first" /><option id="393" key="[&quot;2&quot;,&quot;5&quot;]" /><option id="418" key="[&quot;ebook&quot;]" /></options>';
+        window.LOInfo.mode = 'Normal';
+        window.LOInfo.title = 'IC5_OWB_L0_U01_Ex02';
+        
+          window.LOInfo.lotype = 'Standard';
+          window.LOInfo.mediaURL = '';
+          window.LOInfo.TTS_AUDIO_SERVICE_URL = 'http://author.tts.avallain.com/api/tts';
+          window.LOInfo.toolBeltURL = '//toolbelt-prod-cup.avallain.com';
+          window.LOInfo.commServer = '{&#10;  red5: &quot;lnr-prod-cup.avallain.com&quot;,&#10;  cdn: &quot;http://cup-author-prod-lnr-runtime-assets.s3.amazonaws.com&quot;&#10;}';
+          window.LOInfo.TTS_AUDIO_VOICE = 'Acapela Telecom HQ TTS English (UK) (Rachel 22 kHz)';
+          window.LOInfo.UID = 'cup-prod_34396';
+          window.LOInfo.geoGebra = '//author-engine-production.avallain.net/geogebra/v5/HTML5/5.0/web/';
+          window.LOInfo.assetCDNURL = 'http://author-assets-runtime-prod-cup.avallain.net';
+          window.LOInfo.mathJAX = '//author-engine-production.avallain.net/mathjax/2.7.1/';
+          window.LOInfo.ID = '34396';
+          window.LOInfo.lang = 'en';
+
+        var engine = new a5.Engine();
+        engine.initialize();
+      }
+    </script>
+    <style>  
+      html, body { 
+        height:100%;
+        margin:0;
+        padding:0;
+        border:0;
+      }
+      .autoHeight {
+        height:auto;
+      }
+      .spinner {
+	background: url(//author-assets-runtime-prod-cup.avallain.net/designpack/CUP_adult/9af23c4b9b1c520c662ea6931a19d95a/engineBootstrap/spinner.gif) 0 0 no-repeat;
+	display: block;
+	width: 54px;
+	height: 55px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -27.5px 0 0 -27px;
+}
+    </style>
+
+  </head>
+  <body>
+    <div class="spinner"></div>
+
+  
+    <script type="text/javascript" src="https://author-engine-production.avallain.net/buckminster-2.22.3/player.js"></script>
+
+
+
+    <script>
+	    jQuery(function() {
+	      $('html').addClass('autoHeight');
+	      $('body').addClass('autoHeight');
+	      a5_init(jQuery)
+	  	});
+    </script>
+  </body>
+</html>

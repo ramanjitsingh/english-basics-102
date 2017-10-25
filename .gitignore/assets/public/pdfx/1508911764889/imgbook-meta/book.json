@@ -1,0 +1,172 @@
+{
+  "bookid": "Passages3e-SB1-Unit5.pdf",
+  "pageWidth": 630,
+  "pageHeight": 792,
+  "pagecount": 8,
+  "paths": {
+    "pageSmImgFolder": "images/sm/",
+    "pageMedImgFolder": "images/med/",
+    "pageLrgImgFolder": "images/lrg/",
+    "pageThumbImgFolder": "images/thumbnail/",
+    "pagexlLrgImgFolder": "images/xlrg/",
+    "pageTextDataFolder": "json/",
+    "mediaFolder": "overlay-assets/"
+  },
+  "overlay-config": {
+    "background-color": "#747474",
+    "border-color": "#000000",
+    "icon-color": "#FFFFFF",
+    "hover-color": "#403939",
+    "invisible-hotspot-border": "#AAAAAA",
+    "external-base-urls": {},
+    "audio": {
+      "delay-between-audios": 1000
+    }
+  },
+  "imageConfig": [
+    {
+      "category": "xlarge",
+      "width": 3825,
+      "height": 4898,
+      "dpi": 450,
+      "dJPEQQ": 85,
+      "folderRef": "xlrg"
+    },
+    {
+      "category": "large",
+      "width": 2550,
+      "height": 3265,
+      "dpi": 300,
+      "dJPEQQ": 85,
+      "folderRef": "lrg"
+    },
+    {
+      "category": "medium",
+      "width": 1275,
+      "height": 1633,
+      "dpi": 150,
+      "dJPEQQ": 85,
+      "folderRef": "med"
+    },
+    {
+      "category": "small",
+      "width": 500,
+      "height": 1045,
+      "dpi": 96,
+      "dJPEQQ": 85,
+      "folderRef": "sm"
+    },
+    {
+      "category": "thumbnail",
+      "width": 400,
+      "height": 784,
+      "dpi": 72,
+      "dJPEQQ": 20,
+      "folderRef": "thumbnail"
+    }
+  ],
+  "zoomingStateData": [
+    {
+      "pcwidth": 300,
+      "singlePage": "true",
+      "singlePageFitFactor": 1
+    },
+    {
+      "pcwidth": 400,
+      "singlePage": "true",
+      "singlePageFitFactor": 1
+    },
+    {
+      "pcwidth": 500,
+      "singlePage": "true",
+      "singlePageFitFactor": 1
+    },
+    {
+      "pcwidth": 600,
+      "singlePage": "true",
+      "singlePageFitFactor": 0.9
+    },
+    {
+      "pcwidth": 768,
+      "singlePage": "true",
+      "singlePageFitFactor": 0.8
+    },
+    {
+      "pcwidth": 910,
+      "singlePage": "true",
+      "singlePageFitFactor": 0.8
+    },
+    {
+      "pcwidth": 1120,
+      "singlePage": "false",
+      "singlePageFitFactor": 0.7
+    },
+    {
+      "pcwidth": 1280,
+      "singlePage": "false",
+      "singlePageFitFactor": 0.65
+    },
+    {
+      "pcwidth": 1440,
+      "singlePage": "false",
+      "singlePageFitFactor": 0.6
+    },
+    {
+      "pcwidth": 1800,
+      "singlePage": "false",
+      "singlePageFitFactor": 0.5
+    },
+    {
+      "pcwidth": 2400,
+      "singlePage": "false",
+      "singlePageFitFactor": 0.5
+    },
+    {
+      "pcwidth": 3000,
+      "singlePage": "false",
+      "singlePageFitFactor": 0.5
+    },
+    {
+      "pcwidth": 3600,
+      "singlePage": "false",
+      "singlePageFitFactor": 0.5
+    }
+  ],
+  "hasCover": false,
+  "pages": {
+    "page": [
+      {
+        "bgimage": "Passages3e-SB1-Unit51.jpg",
+        "pagelabel": "1"
+      },
+      {
+        "bgimage": "Passages3e-SB1-Unit52.jpg",
+        "pagelabel": "2"
+      },
+      {
+        "bgimage": "Passages3e-SB1-Unit53.jpg",
+        "pagelabel": "3"
+      },
+      {
+        "bgimage": "Passages3e-SB1-Unit54.jpg",
+        "pagelabel": "4"
+      },
+      {
+        "bgimage": "Passages3e-SB1-Unit55.jpg",
+        "pagelabel": "5"
+      },
+      {
+        "bgimage": "Passages3e-SB1-Unit56.jpg",
+        "pagelabel": "6"
+      },
+      {
+        "bgimage": "Passages3e-SB1-Unit57.jpg",
+        "pagelabel": "7"
+      },
+      {
+        "bgimage": "Passages3e-SB1-Unit58.jpg",
+        "pagelabel": "8"
+      }
+    ]
+  }
+}
